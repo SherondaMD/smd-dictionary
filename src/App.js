@@ -10,7 +10,8 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Sheronda McKee-Dollar</small>
+          <small>Coded by Sheronda McKee-Dollar</small> and open-sourced on{" "}
+          <a href="https://github.com/SherondaMD/smd-dictionary">GitHub</a>
         </footer>
       </div>
     </div>
