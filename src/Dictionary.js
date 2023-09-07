@@ -48,8 +48,9 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
+        <h1>Dictionary</h1>
         <section>
-          <h1>What word do you want to look up?</h1>
+          <h2>What word do you want to look up?</h2>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
